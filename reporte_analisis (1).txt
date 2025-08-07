@@ -1,0 +1,47 @@
+REPORTE DE ANÁLISIS DESCRIPTIVO
+==============================
+
+Total de clientes: 7267
+Tasa de evasión: 25.72%
+
+Principales hallazgos:
+- Clientes fieles permanecen 37.3 meses vs 18.0 meses de evadidos
+- Cargos mensuales promedio: Fieles $61.35 vs Evadidos $74.44
+
+Variables con mayor correlación con evasión:
+Evasion                1.000000
+Cuentas_Diarias        0.189918
+Cargos_Mensuales       0.189866
+Facturacion_Digital    0.186666
+TV_Streaming           0.062430
+
+ANÁLISIS DE CORRELACIÓN (EXTRA)
+===============================
+
+Top 10 correlaciones con evasión:
+Evasion                1.000000
+Metodo_Pago_Num        0.225318
+Cuentas_Diarias        0.189918
+Cargos_Mensuales       0.189866
+Facturacion_Digital    0.186666
+TV_Streaming           0.062430
+Peliculas_Streaming    0.060586
+Lineas_Multiples       0.039343
+Servicio_Telefonico    0.012571
+Genero                -0.009555
+
+Análisis de Cuentas Diarias:
+- Clientes fieles: Mediana = $2.15
+- Clientes evadidos: Mediana = $2.66
+
+Tasa de evasión por cantidad de servicios:
+Cantidad_Servicios
+0    0.432099
+1    0.203399
+2    0.317848
+3    0.354125
+4    0.304211
+5    0.249731
+6    0.217454
+7    0.120098
+8    0.051402
