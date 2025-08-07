@@ -43,19 +43,16 @@ translation_dict = {'account.tenure': 'Meses_Contrato', ...}
 ## Análisis Exploratorio de Datos
 ### Hallazgos clave
 1. **Distribución de Evasión**  
-   ![Distribución](https://distribucion_evasion.png)
    - Clientes retenidos: `71.2%`
    - Clientes evadidos: `28.8%`
    - Ratio evasión/retención: `0.40`
 
 2. **Factores de Alto Impacto**  
-   ![Evasión por contrato](https://evasion_por_contrato.png)
    - Contrato Mensual: `44.6%` evasión
    - Fibra Óptica: `38.1%` evasión
    - Pago con Cheque Electrónico: `34.2%` evasión
 
 3. **Correlaciones Significativas**  
-   ![Correlaciones](https://top_correlaciones_evasion.png)
    | Variable               | Correlación con Evasión |
    |------------------------|-------------------------|
    | Meses_Contrato         | `-0.352`                |
@@ -70,7 +67,6 @@ translation_dict = {'account.tenure': 'Meses_Contrato', ...}
    - 6+ servicios: `<15%` evasión
 
 5. **Grupos de Alto Riesgo**  
-   ![Grupos de riesgo](https://grupos_alto_riesgo.png)
    - Mensual + Fibra Óptica: `46.2%` evasión
    - Digital + Cheque Electrónico: `45.3%` evasión
    - Mensual + Sin Internet: `42.1%` evasión
